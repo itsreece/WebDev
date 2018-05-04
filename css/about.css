@@ -1,0 +1,76 @@
+.site {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+        margin: 0;
+        padding: 0;
+        border: 0;  
+}
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar and header stuff */
+.site-header {
+    width: 100%;
+    height: 229px;
+    background: url(../img/headerimg.jpg)
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 1s ease-in-out;
+}
+.logo:hover {
+    transform: rotate(360deg) scale(1.1);
+}
+.navigation-bar {
+    width: 100%;
+    height: 50px;
+    background: rgb(31, 31, 31);
+    margin-top: 20px;
+}
+.site-navigation {
+    width: 100%;
+    height: 50px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.site-navigation li {
+    display: inline-block;
+    height: 50px;
+    width: 120px;
+    margin-right: -2px;
+    margin-left: -2px;
+}
+.site-navigation a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    font-family: 'Open Sans Condensed';
+}
+.site-navigation a:hover {
+    background: grey;
+    color: white;
+}
+.site-navigation a.active {
+    background: gray;
+    color: white;
+}
+
+/* --- everything below navbar below --- */
+
+.mainsection {
+    width: 100%;
+    height: 1200px;
+    background: rgb(206, 206, 206);
+}
